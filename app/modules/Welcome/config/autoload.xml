@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ae:configurations xmlns="http://agavi.org/agavi/config/parts/autoload/1.0" xmlns:ae="http://agavi.org/agavi/config/global/envelope/1.0">
+	
+	<ae:configuration>
+		
+		<autoload name="BlogWelcomeBaseAction">%core.module_dir%/Welcome/lib/action/BlogWelcomeBaseAction.class.php</autoload>
+		<autoload name="BlogWelcomeBaseModel">%core.module_dir%/Welcome/lib/model/BlogWelcomeBaseModel.class.php</autoload>
+		<autoload name="BlogWelcomeBaseView">%core.module_dir%/Welcome/lib/view/BlogWelcomeBaseView.class.php</autoload>
+		
+	</ae:configuration>
+	
+</ae:configurations>
